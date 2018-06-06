@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Task from './Task.js';
+// import Task from './Task.js';
 
 // App component - represents the whole app
 export default class App extends Component {
@@ -25,9 +25,7 @@ export default class App extends Component {
          <h1>Todo List</h1>
        </header>
 
-       <ul>
-         {this.renderTasks()}
-       </ul>
+       
      </div>
    );
  }
